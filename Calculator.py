@@ -48,6 +48,7 @@ calculate_button.pack()
 reset_button = tk.Button(root, text="Reset", command=reset_fields)
 reset_button.pack()
 
-root.mainloop()
+if __name__ == "__main__":
+    root.mainloop()
 
 # Notes: The reset button just cleans the numbers / strings, it doesn't remove the toll and quantity fields
