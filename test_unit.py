@@ -9,10 +9,6 @@ print(cantidades)
 print(root)
 @pytest.fixture(scope="module")
 def setup_root():
-    # global root
-    # root = tk.Tk()
-    # yield
-    # root.destroy()
     add_toll_fields()
 
 def test_add_monto_label_and_entry(setup_root):
