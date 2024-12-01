@@ -19,6 +19,11 @@ def add_toll_fields():
     cantidades.append(new_entry_cantidad)
 
 def calculate_total_tolls():
+    # Check if any of the values in montos and cantidades are empty
+    if any(not entry_monto.get() or not entry_cantidad.get() for entry_monto, entry_cantidad in zip(montos, cantidades)):
+        messagebox.showwarning("Empty values", "Please enter values for all tolls and quantities.")
+        return
+
     total = sum(float(monto.get()) * int(cantidad.get()) for monto, cantidad in zip(montos, cantidades))
     messagebox.showinfo("Total de peajes", f"El total de peajes es: {total}")
 
