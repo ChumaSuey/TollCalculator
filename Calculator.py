@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 import sv_ttk as svttk
+import darkdetect as dt
 from pywinstyles import apply_theme_to_titlebar  # Import the function
 
 # In one of my jobs i do administrative tasks, one of them is counting the tolls of our vehicles
@@ -68,7 +69,7 @@ def reset_fields():
 # Create the main window
 root = tk.Tk()
 apply_theme_to_titlebar(root)
-svttk.set_theme("dark")
+svttk.set_theme(dt.theme())
 root.title("Calculadora de peajes")
 root.bind("<Return>", lambda event: calculate_total_tolls())
 
