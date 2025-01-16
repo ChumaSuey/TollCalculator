@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f17153bd-9c37-411f-9a51-f805e47cbbde" name="Changes" comment="Validation error message.">
+    <list default="true" id="f17153bd-9c37-411f-9a51-f805e47cbbde" name="Changes" comment="Comments improved.">
+      <change afterPath="$PROJECT_DIR$/pywinstyles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_unit2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.py" afterDir="false" />
     </list>
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -35,7 +38,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_unit.test_add_monto_label_and_entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_unit2.test_add_toll_fields.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_unit.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_unit2.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in testunit.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in unittests.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.Backend.executor&quot;: &quot;Run&quot;,
@@ -43,6 +49,8 @@
     &quot;Python.GUI-v2.executor&quot;: &quot;Run&quot;,
     &quot;Python.GUI.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_unit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_unit2.executor&quot;: &quot;Run&quot;,
     &quot;Python.unittests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
@@ -55,7 +63,7 @@
       <recent name="C:\Users\luism\PycharmProjects\TollCalc\old py files" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Calculator">
     <configuration name="Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tollcalculator" />
       <option name="ENV_FILES" value="" />
@@ -78,9 +86,80 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_unit2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tollcalculator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_unit2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_unit2.test_add_toll_fields" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Tollcalculator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_unit2.test_add_toll_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_unit.test_add_monto_label_and_entry" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Tollcalculator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_unit.test_add_monto_label_and_entry&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_unit2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Tollcalculator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_unit2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Calculator" />
+        <item itemvalue="Python tests.Python tests in test_unit2.py" />
+        <item itemvalue="Python.test_unit2" />
+        <item itemvalue="Python tests.Python tests for test_unit2.test_add_toll_fields" />
+        <item itemvalue="Python tests.Python tests for test_unit.test_add_monto_label_and_entry" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733033336850</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Comments improved.">
+      <option name="closed" value="true" />
+      <created>1733062103817</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733062103817</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +266,7 @@
     <MESSAGE value="pytest files added" />
     <MESSAGE value="Keys added for the function of the Toll Calculator" />
     <MESSAGE value="Validation error message." />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation error message." />
+    <MESSAGE value="Comments improved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments improved." />
   </component>
 </project>
