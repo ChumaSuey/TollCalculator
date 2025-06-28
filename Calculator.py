@@ -64,6 +64,17 @@ def reset_fields():
     # Add a new toll field (with default values)
     add_toll_fields()
 
+# Function to remove the latest added toll fields
+def remove_latest_toll_fields():
+    if montos and cantidades:  # Check if there are toll fields to remove
+        # Remove the last toll field widgets
+        latest_monto = montos.pop()
+        latest_cantidad = cantidades.pop()
+        latest_monto.destroy()
+        latest_cantidad.destroy()
+    else:
+        messagebox.showinfo("No tolls to remove", "There are no toll fields to remove.")
+
 # All buttons have a root bind so that they work with the keyboard
 # Also within the Text labels, between [ ] is the keyboard shortcut indicated
 # Create the main window
@@ -90,6 +101,12 @@ calculate_button.pack()
 reset_button = ttk.Button(root, text="Reset[W]", command=reset_fields)
 reset_button.pack()
 root.bind("<w>", lambda event: reset_fields())
+
+# Function to remove the latest added toll fields
+# Button to remove the latest toll fields
+remove_button = ttk.Button(root, text="Remove [E]", command=remove_latest_toll_fields)
+remove_button.pack()
+root.bind("<e>", lambda event: remove_latest_toll_fields())
 
 if __name__ == "__main__":
     root.mainloop()
